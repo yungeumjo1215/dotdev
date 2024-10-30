@@ -19,7 +19,7 @@ import a5 from "../assets/profile-pictures/a5.jpg";
 import a6 from "../assets/profile-pictures/a6.jpg";
 
 export const navItems = [
-  { label: "Home", to: "/" },
+  { label: "Home", to: "/home" },
   { label: "Features", to: "/features" },
   // { label: 'Workflow', to: '/workflow' },
   // { label: 'Pricing', to: 'pricing' },
