@@ -1,0 +1,54 @@
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.hero-wrapper .slogan {
+  font-size: 4.5rem;
+  line-height: 1em;
+  text-align: center;
+  color: #d4d4d4; /* text-neutral-300 */
+  letter-spacing: 0.025em;
+}
+
+.hero-wrapper .slogan span {
+  background: linear-gradient(to right, #c7d2f2 0%, #3730a3 100%);
+  color: transparent;
+  background-clip: text;
+}
+
+.hero-wrapper p {
+  margin-top: 40px;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.75rem;
+  color: #737373; /* text-neutral-400 */
+  max-width: 56rem;
+}
+
+.hero-wrapper .sub-links {
+  margin-top: 40px;
+  display: flex;
+  gap: 12px;
+}
+
+.hero-wrapper .sub-links a {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #737373; /* text-neutral-400 */
+}
+
+.video-wrapper {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.video-wrapper video {
+  border-radius: 0.5rem;
+  width: 50%;
+  border: 1px solid #4339ca; /* border-indigo-700 */
+  box-shadow: 0 1px 2px #818cf8; /* shadow-indigo-400 */
+  margin: 16px 8px;
+}
