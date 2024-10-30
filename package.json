@@ -2,7 +2,7 @@
   "name": "dotdev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yungeumjo1215.github.io/dotdev/",
+  "homepage": "https://github.com/yungeumjo1215/dordev.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
