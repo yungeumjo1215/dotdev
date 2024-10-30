@@ -8,6 +8,7 @@ import Footer from "./components/common/Footer";
 // BrowserRouter: 브라우저에 이동을 컨트롤 하는 전체 컴포넌트
 // Routes: 페이지 이동을 위한 컴포넌트
 // Route: 각 페이지 이동의 속성을 지정하는 컴폰넌트
+//dd
 
 const App = () => {
   //deploy test
