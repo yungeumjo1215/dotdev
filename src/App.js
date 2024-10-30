@@ -10,6 +10,7 @@ import Footer from "./components/common/Footer";
 // Route: 각 페이지 이동의 속성을 지정하는 컴폰넌트
 
 const App = () => {
+  //deploy test
   return (
     <BrowserRouter>
       <div className="App">
