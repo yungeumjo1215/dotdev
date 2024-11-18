@@ -5,13 +5,16 @@ const Features = () => {
   return (
     <div className="mt-20 border-b border-neutral-800">
       <div className="text-center">
-        <span className="dark:bg-neutral-900 text-indigo-500 py-1 px-2 text-sm font-medium uppercase rounded-full light: border light: border-neutral-500 light: bg-white dark:border-0">
+        <span className="dark:bg-neutral-900 text-green-500 py-1 px-2 text-sm font-medium uppercase rounded-full light: border light: border-neutral-500 light: bg-white dark:border-0">
           Features
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
-          Easily Build{" "}
-          <span className="bg-gradient-to-r from-indigo-300 to-indigo-800 text-transparent bg-clip-text">
-            Your Codes
+          클래스 /{" "}
+          <span className="bg-gradient-to-r from-green-300 to-green-800 text-transparent bg-clip-text">
+            꽃다발 /{" "}
+          </span>
+          <span className="bg-gradient-to-r from-green-800 to-green-300 text-transparent bg-clip-text">
+            플라워 핸드백
           </span>
         </h2>
       </div>
@@ -20,7 +23,7 @@ const Features = () => {
         {features.map((feature, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
             <div className="flex">
-              <div className="flex justify-center items-center w-10 h-10 dark:bg-neutral-900 text-indigo-700 rounded-full p-2 mx-6 dark:border-0 light: bg-white light: border light: border-neutral-500">
+              <div className="flex justify-center items-center w-10 h-10 dark:bg-neutral-900 text-green-700 rounded-full p-2 mx-6 dark:border-0 light: bg-white light: border light: border-neutral-500">
                 <div className="w-full h-full">{feature.icon}</div>
               </div>
               <div>

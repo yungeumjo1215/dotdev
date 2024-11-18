@@ -18,9 +18,9 @@ const Header = () => {
         <div className="nav-inside-wrapper flex justify-between items-center">
           <div className="logo-wrapper flex items-center gap-2">
             <div className="logo w-10 h-10 rounded-full border border-neutral-700/80 flex items-center justify-center">
-              <div className="round-dot w-8 h-8 rounded-full bg-indigo-800"></div>
+              <div className="round-dot w-8 h-8 rounded-full bg-green-700"></div>
             </div>
-            <span className="logo-text text-lg">AceDot.Dev</span>
+            <span className="logo-text text-lg">pull_percent</span>
           </div>
           <ul className="nav-wrapper hidden lg:flex gap-3">
             {navItems.map((item, index) => (
@@ -38,7 +38,7 @@ const Header = () => {
                 key={index}
                 className={`py-2 px-3 rounded-md ${
                   index === 1
-                    ? "bg-gradient-to-r from-indigo-500 to-indigo-800 border-0 light: text-neutral-200"
+                    ? "bg-gradient-to-r from-green-500 to-green-800 border-0 light: text-neutral-200"
                     : "border border-neutral-700/80"
                 }`}
               >
@@ -78,7 +78,7 @@ const Header = () => {
                   key={index}
                   className={`py-2 px-3 rounded-md ${
                     index === 1
-                      ? "bg-gradient-to-r from-indigo-500 to-indigo-800 border-0 light: text-neutral-200"
+                      ? "bg-gradient-to-r from-green-500 to-green-800 border-0 light: text-neutral-200"
                       : "border border-neutral-700/80"
                   }`}
                 >

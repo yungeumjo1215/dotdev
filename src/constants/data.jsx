@@ -20,10 +20,10 @@ import a6 from "../assets/profile-pictures/a6.jpg";
 
 export const navItems = [
   { label: "Home", to: "/home" },
-  { label: "Features", to: "/features" },
-  // { label: 'Workflow', to: '/workflow' },
-  // { label: 'Pricing', to: 'pricing' },
-  // { label: 'Testimonials', to: 'testimonials' },
+  { label: "Flower", to: "/flower" },
+  { label: "Plant", to: "/plant" },
+  { label: "Class", to: "/class" },
+  { label: "Testimonials", to: "/testimonials" },
 ];
 
 export const authLink = [
