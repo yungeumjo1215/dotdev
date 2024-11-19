@@ -1,6 +1,5 @@
 import React from "react";
 import Features2 from "./Features2";
-import { features2 } from "./../../constants/data";
 
 const index = () => {
   return (
